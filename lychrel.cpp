@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cstring>
+#include <climit>
 #include "lychrel.hpp"
 
 long long get_len (string a, string b) {
@@ -14,7 +15,7 @@ string add (string a, string b) {
     
     char result[len + 2] = { '0' };
 
-    if(len == -1) {
+    if(len == -1 or len == LLONG_MAX) {
         return "-1";
     } else {
 	int reg = 0;
