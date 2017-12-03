@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cstring>
-#include <climit>
+#include <climits>
 #include "lychrel.hpp"
 
 long long get_len (string a, string b) {
